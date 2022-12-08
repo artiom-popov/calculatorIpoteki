@@ -59,16 +59,4 @@ func main() {
 
 	fmt.Printf("Сумма ежемесячного платежа составляет: %0.2f, %0.2f \n", resalt, test)
 
-	return
-
-	//var n float64 = 2900000
-	s := int(n*0.103) / 192
-	p := s * 12
-	fmt.Printf("Your summa is %dp \n", p)
-
-	//var n float64 = 100000
-
-	//s := int(n*0.03) / 12
-
-	//fmt.Printf("Your summa is %dp", s)
 }
