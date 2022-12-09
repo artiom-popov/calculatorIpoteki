@@ -53,10 +53,9 @@ func main() {
 	}
 
 	i := in / m // (12,9 % процент по кредиту : 100 ) / m = 12 месяцев
-	test := math.Pow((1 + i), n)
 
 	resalt := (S * (i * math.Pow((1+i), n))) / (math.Pow((1+i), n) - 1)
 
-	fmt.Printf("Сумма ежемесячного платежа составляет: %0.2f, %0.2f \n", resalt, test)
+	fmt.Printf("Сумма ежемесячного платежа составляет: %0.2f \n", resalt)
 
 }
